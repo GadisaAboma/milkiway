@@ -13,16 +13,11 @@ const Services = () => {
   return (
     <>
       <Navbar />
-      <PageTopTitle
-        subTitle="Our Services"
-        title="Our work is delivered by the best team in the world"
-      />
+      <PageTopTitle subTitle=" " title=" " />
       <HelpDesk />
       <Overview />
-      <WhatWeDo />
-      <Faq />
-      <Subscribe />
-      <Partners />
+      {/* <WhatWeDo /> */}
+
       <FooterOne />
     </>
   );

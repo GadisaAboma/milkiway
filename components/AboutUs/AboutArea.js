@@ -34,9 +34,7 @@ const AboutArea = () => {
                   </div>
                   Integrated Innovation
                   <Link href="/services/services-details" className="link-btn">
-
                     <i className="bx bx-chevron-right"></i>
-
                   </Link>
                 </li>
                 <li>
@@ -45,9 +43,7 @@ const AboutArea = () => {
                   </div>
                   Collaborative Culture
                   <Link href="/services/services-details" className="link-btn">
-
                     <i className="bx bx-chevron-right"></i>
-
                   </Link>
                 </li>
                 <li>
@@ -56,9 +52,7 @@ const AboutArea = () => {
                   </div>
                   Business Planning
                   <Link href="/services/services-details" className="link-btn">
-
                     <i className="bx bx-chevron-right"></i>
-
                   </Link>
                 </li>
                 <li>
@@ -67,9 +61,7 @@ const AboutArea = () => {
                   </div>
                   Professional Team
                   <Link href="/services/services-details" className="link-btn">
-
                     <i className="bx bx-chevron-right"></i>
-
                   </Link>
                 </li>
                 <li>
@@ -78,9 +70,7 @@ const AboutArea = () => {
                   </div>
                   13+ Years Experience
                   <Link href="/services/services-details" className="link-btn">
-
                     <i className="bx bx-chevron-right"></i>
-
                   </Link>
                 </li>
               </ul>

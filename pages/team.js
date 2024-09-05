@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "@/components/Layout/Navigations/Navbar1";
 import TeamOne from "@/components/Team/TeamOne";
 import TeamTwo from "@/components/Team/TeamTwo";
-import FooterTwo from "@/components/Layout/Footer/FooterTwo";
+import FooterOne from "@/components/Layout/Footer/FooterOne";
 
 const Team = () => {
   return (
@@ -18,7 +18,7 @@ const Team = () => {
       </div>
       <TeamOne />
       <TeamTwo />
-      <FooterTwo />
+      <FooterOne />
     </>
   );
 };

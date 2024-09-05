@@ -8,7 +8,7 @@ import Team from "@/components/AboutUs/Team";
 import Testimonials from "@/components/AboutUs/Testimonials";
 import Partners from "@/components/AboutUs/Partners";
 import GetStarted from "@/components/Common/GetStarted";
-import FooterTwo from "@/components/Layout/Footer/FooterTwo";
+import FooterOne from "@/components/Layout/Footer/FooterOne";
 
 const AboutUs = () => {
   return (
@@ -25,14 +25,10 @@ const AboutUs = () => {
       <AboutArea />
       <Overview />
       <WorkingProcess />
-      <Funfacts />
+      {/* <Funfacts /> */}
       <Team />
-      <Testimonials />
-      <Partners />
-      <div className="ptb-100">
-        <GetStarted />
-      </div>
-      <FooterTwo />
+
+      <FooterOne />
     </>
   );
 };

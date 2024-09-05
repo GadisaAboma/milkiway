@@ -11,63 +11,6 @@ const Overview = () => {
       <div className="container">
         <div className="overview-box">
           <div className="row align-items-center">
-            <div className="col-lg-6 col-md-12 overview-image">
-              <Image src={overviewImg1} data-aos="fade-up" alt="overview" />
-            </div>
-            <div className="col-lg-6 col-md-12 overview-content">
-              <span className="sub-title">Services We Offer</span>
-              <h2>We are here, to help your startup business</h2>
-              <ul className="overview-list">
-                <li data-aos="fade-up" data-aos-duration="1200">
-                  <span>
-                    <i className="flaticon-draw-check-mark"></i>
-                    <Link href="/services/services-details">
-                      Cloud Databases
-                    </Link>
-                  </span>
-                </li>
-                <li
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                  data-aos-delay="100"
-                >
-                  <span>
-                    <i className="flaticon-draw-check-mark"></i>
-                    <Link href="/services/services-details">
-                      Website Hosting
-                    </Link>
-                  </span>
-                </li>
-                <li
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                  data-aos-delay="200"
-                >
-                  <span>
-                    <i className="flaticon-draw-check-mark"></i>
-                    <Link href="/services/services-details">
-                      Remote Desktop
-                    </Link>
-                  </span>
-                </li>
-                <li
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                  data-aos-delay="300"
-                >
-                  <span>
-                    <i className="flaticon-draw-check-mark"></i>
-                    <Link href="/services/services-details">
-                      File Backup
-                    </Link>
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="overview-box">
-          <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 overview-content">
               <span className="sub-title">Our Services</span>
               <h2>Best IT & technology service in your area</h2>

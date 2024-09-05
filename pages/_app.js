@@ -16,7 +16,7 @@ import "/styles/responsive.css";
 
 import ScrollToTop from "@/components/Layout/ScrollToTop";
 
-import Head from 'next/head';
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
@@ -25,18 +25,13 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta 
-          charSet="utf-8" 
-        />
-        <meta 
-          name="viewport" 
-          content="width=device-width, initial-scale=1" 
-        />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Abev - Creative Multipurpose React Next Template</title>
       </Head>
 
       <Component {...pageProps} />
-      
+
       <ScrollToTop />
     </>
   );

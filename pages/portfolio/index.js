@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Layout/Navigations/Navbar1";
 import PortfolioStyle1 from "@/components/Portfolio/PortfolioStyle1";
-import FooterTwo from "@/components/Layout/Footer/FooterTwo";
+import FooterOne from "@/components/Layout/Footer/FooterOne";
 
 const Portfolio1 = () => {
   return (
@@ -16,7 +16,7 @@ const Portfolio1 = () => {
         </div>
       </div>
       <PortfolioStyle1 />
-      <FooterTwo />
+      <FooterOne />
     </>
   );
 };

@@ -19,12 +19,12 @@ export default function Index() {
       <Helpdesk />
       <Overview />
       <WhatWeDo />
-      <Faq />
-      <TestimonialTwo />
+
+      {/* <TestimonialTwo /> */}
       <OurCreativeTeam />
-      <BlogPostStyle1 />
-      <SubscribeStyle1 />
-      <PartnerStyle1 />
+      {/* <BlogPostStyle1 /> */}
+      {/* <SubscribeStyle1 /> */}
+      {/* <PartnerStyle1 /> */}
       <FooterOne />
     </>
   );

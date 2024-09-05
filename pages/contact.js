@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "@/components/Layout/Navigations/Navbar1";
 import ContactInfo from "@/components/Contact/ContactInfo";
 import ContactForm from "@/components/Contact/ContactForm";
-import FooterTwo from "@/components/Layout/Footer/FooterTwo";
+import FooterOne from "@/components/Layout/Footer/FooterOne";
 
 const Contact = () => {
   return (
@@ -18,7 +18,7 @@ const Contact = () => {
       </div>
       <ContactInfo />
       <ContactForm />
-      <FooterTwo />
+      <FooterOne />
     </>
   );
 };

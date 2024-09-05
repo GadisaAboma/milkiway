@@ -8,14 +8,12 @@ const FooterOne = () => {
   const currentYear = new Date().getFullYear();
   return (
     <div className="template-footer-one pt-100 with-top-border">
-      <div className="container">
+      {/* <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-6">
             <div className="single-footer-widget">
               <Link href="/" className="logo">
-
                 <Image src={logo} alt="logo" />
-
               </Link>
               <p>
                 Lorem ipsum dolor sit amet, consectetur, sed do eiusmod tempor
@@ -33,54 +31,34 @@ const FooterOne = () => {
               <h3>Quick links</h3>
               <ul className="quick-links">
                 <li>
-                  <Link href="/">
-                    IT Startup
-                  </Link>
+                  <Link href="/">IT Startup</Link>
                 </li>
                 <li>
-                  <Link href="/software">
-                    Software
-                  </Link>
+                  <Link href="/software">Software</Link>
                 </li>
                 <li>
-                  <Link href="/business">
-                    Business
-                  </Link>
+                  <Link href="/business">Business</Link>
                 </li>
                 <li>
-                  <Link href="/app">
-                    App
-                  </Link>
+                  <Link href="/app">App</Link>
                 </li>
                 <li>
-                  <Link href="/insurance">
-                    Insurance
-                  </Link>
+                  <Link href="/insurance">Insurance</Link>
                 </li>
                 <li>
-                  <Link href="/property">
-                    Property
-                  </Link>
+                  <Link href="/property">Property</Link>
                 </li>
                 <li>
-                  <Link href="/big-data">
-                    Big Data
-                  </Link>
+                  <Link href="/big-data">Big Data</Link>
                 </li>
                 <li>
-                  <Link href="/distance-learning">
-                    Distance Learning
-                  </Link>
+                  <Link href="/distance-learning">Distance Learning</Link>
                 </li>
                 <li>
-                  <Link href="/chatbot">
-                    Chatbot
-                  </Link>
+                  <Link href="/chatbot">Chatbot</Link>
                 </li>
                 <li>
-                  <Link href="/medical">
-                    Medical
-                  </Link>
+                  <Link href="/medical">Medical</Link>
                 </li>
               </ul>
             </div>
@@ -102,7 +80,7 @@ const FooterOne = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="copyright-area">
         <div className="container">

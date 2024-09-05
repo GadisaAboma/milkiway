@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Layout/Navigations/Navbar1";
-import FooterTwo from "@/components/Layout/Footer/FooterTwo";
+import FooterOne from "@/components/Layout/Footer/FooterOne";
 import PortfolioDetailsContent from "@/components/Portfolio/PortfolioDetailsContent";
 
 const PortfolioDetails = () => {
@@ -24,7 +24,7 @@ const PortfolioDetails = () => {
         </div>
       </div>
       <PortfolioDetailsContent />
-      <FooterTwo />
+      <FooterOne />
     </>
   );
 };

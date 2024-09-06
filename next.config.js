@@ -2,6 +2,17 @@ const path = require("path");
 
 module.exports = {
   trailingSlash: true,
+
+  images: {
+    remotePatterns: [
+      {
+        protocol: "http", // Change this to "http" if you're using localhost without HTTPS
+        hostname: "localhost",
+        port: "8000",
+        pathname: "/storage/team_images/**", // Adjust the pathname as needed
+      },
+    ],
+  },
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
@@ -20,3 +31,19 @@ module.exports = {
   // },
   optimizeFonts: false,
 };
+
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   images: {
+//     remotePatterns: [
+//       {
+//         protocol: "http", // Change this to "http" if you're using localhost without HTTPS
+//         hostname: "localhost",
+//         port: "8000",
+//         pathname: "/storage/team_images/**", // Adjust the pathname as needed
+//       },
+//     ],
+//   },
+// };
+
+// module.exports = nextConfig;

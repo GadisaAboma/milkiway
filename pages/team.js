@@ -4,6 +4,7 @@ import TeamOne from "@/components/Team/TeamOne";
 import TeamTwo from "@/components/Team/TeamTwo";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 
+
 const Team = () => {
   return (
     <>

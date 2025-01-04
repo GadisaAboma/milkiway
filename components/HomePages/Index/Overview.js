@@ -8,7 +8,7 @@ const Overview = () => {
   return (
     <div className="overview-area ptb-100 bg-f9f9f9">
       <div className="container">
-        <div className="overview-box">
+        {/* <div className="overview-box">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12 overview-image">
               <Image src={overviewImg1} data-aos="fade-up" alt="overview" />
@@ -59,7 +59,7 @@ const Overview = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="overview-box">
           <div className="row align-items-center">

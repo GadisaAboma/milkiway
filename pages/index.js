@@ -16,9 +16,9 @@ export default function Index() {
     <>
       <Navbar />
       <Banner />
-      <Helpdesk />
+      {/* <Helpdesk /> */}
       <Overview />
-      <WhatWeDo />
+      {/* <WhatWeDo /> */}
 
       {/* <TestimonialTwo /> */}
       <OurCreativeTeam />

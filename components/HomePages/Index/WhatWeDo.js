@@ -36,7 +36,6 @@ const WhatWeDo = () => {
               </p>
               <Link href="/services/services-details" className="link-btn">
                 Learn More<i className="bx bx-chevron-right"></i>
-
               </Link>
             </div>
           </div>
@@ -61,7 +60,6 @@ const WhatWeDo = () => {
               </p>
               <Link href="/services/services-details" className="link-btn">
                 Learn More<i className="bx bx-chevron-right"></i>
-
               </Link>
             </div>
           </div>
@@ -85,7 +83,6 @@ const WhatWeDo = () => {
               </p>
               <Link href="/services/services-details" className="link-btn">
                 Learn More<i className="bx bx-chevron-right"></i>
-
               </Link>
             </div>
           </div>
@@ -100,9 +97,7 @@ const WhatWeDo = () => {
                 <Image src={icon8} alt="icon" />
               </div>
               <h3>
-                <Link href="/services/services-details">
-                  Simple Dashboard
-                </Link>
+                <Link href="/services/services-details">Simple Dashboard</Link>
               </h3>
               <p>
                 Lorem ipsum dolor sit amet, conse ctetur adipi scing elit sed
@@ -110,7 +105,6 @@ const WhatWeDo = () => {
               </p>
               <Link href="/services/services-details" className="link-btn">
                 Learn More<i className="bx bx-chevron-right"></i>
-
               </Link>
             </div>
           </div>

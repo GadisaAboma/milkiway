@@ -29,6 +29,7 @@ IT Startup Banner Area CSS
 }
 
 .it-startup-banner-image {
+  margin-top: -40px;
   text-align: center;
 }
 .it-startup-banner-image img {

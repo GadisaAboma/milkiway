@@ -36,7 +36,7 @@ const Navbar = () => {
             <Link href="/">
               <a className="navbar-brand">
                 <Image
-                  style={{ height: "200px", width: "200px" }}
+                  style={{ height: "50px", width: "50px" }}
                   src={logo}
                   alt="site logo"
                 />

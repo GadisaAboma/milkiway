@@ -19,7 +19,7 @@ const Overview = () => {
                   <span>
                     <i className="flaticon-draw-check-mark"></i>
                     <Link href="/services/services-details">
-                      Design & Development
+                      Website Development
                     </Link>
                   </span>
                 </li>
@@ -31,7 +31,7 @@ const Overview = () => {
                   <span>
                     <i className="flaticon-draw-check-mark"></i>
                     <Link href="/services/services-details">
-                      Android Apps Development
+                      App Development
                     </Link>
                   </span>
                 </li>
@@ -43,7 +43,7 @@ const Overview = () => {
                   <span>
                     <i className="flaticon-draw-check-mark"></i>
                     <Link href="/services/services-details">
-                      Laravel Web Development
+                      SEO Optimization
                     </Link>
                   </span>
                 </li>
@@ -55,7 +55,31 @@ const Overview = () => {
                   <span>
                     <i className="flaticon-draw-check-mark"></i>
                     <Link href="/services/services-details">
-                      React Web Development
+                      UI/UX Design
+                    </Link>
+                  </span>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="300"
+                >
+                  <span>
+                    <i className="flaticon-draw-check-mark"></i>
+                    <Link href="/services/services-details">
+                      Hosting Websites
+                    </Link>
+                  </span>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="300"
+                >
+                  <span>
+                    <i className="flaticon-draw-check-mark"></i>
+                    <Link href="/services/services-details">
+                      IT Consultation
                     </Link>
                   </span>
                 </li>

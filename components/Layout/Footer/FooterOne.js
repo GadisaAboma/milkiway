@@ -87,14 +87,8 @@ const FooterOne = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-7">
               <p>
-                Copyright © {currentYear} Abev. All Rights Reserved by{" "}
-                <a
-                  href="https://envytheme.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  EnvyTheme
-                </a>
+                Copyright © {currentYear} Milkiway Technologies PLC. All Rights
+                Reserved
               </p>
             </div>
             <div className="col-lg-6 col-md-5">

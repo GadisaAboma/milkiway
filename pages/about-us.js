@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Layout/Navigations/Navbar1";
 import AboutArea from "@/components/AboutUs/AboutArea";
-import Overview from "@/components/AboutUs/Overview";
 import WorkingProcess from "@/components/AboutUs/WorkingProcess";
 import Funfacts from "@/components/AboutUs/Funfacts";
 import Team from "@/components/AboutUs/Team";
@@ -23,7 +22,6 @@ const AboutUs = () => {
         </div>
       </div>
       <AboutArea />
-      <Overview />
       <WorkingProcess />
       {/* <Funfacts /> */}
       <Team />

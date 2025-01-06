@@ -10,7 +10,7 @@ import teamImg5 from "@/public/images/team/team5.png";
 import teamImg6 from "@/public/images/team/team6.png";
 import bgShape1 from "@/public/images/shape/bg-shape1.jpg";
 
-const Team = () => {
+const Team = ({ showButton }) => {
   return (
     <div className="team-area ptb-100">
       <div className="container">
@@ -30,10 +30,11 @@ const Team = () => {
                 Nisl sed a risus vitae, platea eget. Tortor, nisl aliquam urna
                 dignissim.
               </p>
-              <Link href="/team" className="btn-style-one red-light-color">
-                Meet Our Team<i className="bx bx-chevron-right"></i>
-
-              </Link>
+              {showButton && (
+                <Link href="/team" className="btn-style-one red-light-color">
+                  Meet Our Team<i className="bx bx-chevron-right"></i>
+                </Link>
+              )}
             </div>
           </div>
           <div className="col-lg-6 col-md-12">

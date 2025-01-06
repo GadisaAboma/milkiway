@@ -1,15 +1,9 @@
 import Navbar from "@/components/Layout/Navigations/Navbar1";
 import Banner from "@/components/HomePages/Index/Banner";
-import Helpdesk from "@/components/HomePages/Index/Helpdesk";
-import Overview from "@/components/HomePages/Index/Overview";
-import WhatWeDo from "@/components/HomePages/Index/WhatWeDo";
-import Faq from "@/components/HomePages/Index/Faq";
-import TestimonialTwo from "@/components/Testimonials/TestimonialTwo";
-import OurCreativeTeam from "@/components/Common/OurCreativeTeam";
-import BlogPostStyle1 from "@/components/Common/BlogPostStyle1";
-import SubscribeStyle1 from "@/components/Common/SubscribeStyle1";
-import PartnerStyle1 from "@/components/Partners/PartnerStyle1";
+import Overview from "@/components/Services/Overview";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
+import Team from "../components/AboutUs/Team";
+import Projects from "@/components/HomePages/App/Projects";
 
 export default function Index() {
   return (
@@ -21,7 +15,8 @@ export default function Index() {
       {/* <WhatWeDo /> */}
 
       {/* <TestimonialTwo /> */}
-      <OurCreativeTeam />
+      <Projects />
+      <Team showButton={true} />
       {/* <BlogPostStyle1 /> */}
       {/* <SubscribeStyle1 /> */}
       {/* <PartnerStyle1 /> */}

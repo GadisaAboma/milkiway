@@ -10,8 +10,7 @@ const Portfolio1 = () => {
       <div className="page-title-area">
         <div className="container">
           <div className="page-title-content">
-            <span className="sub-title">Portfolio</span>
-            <h1>We&apos;ve done lot&apos;s of work, Let&apos;s check some</h1>
+            <h1>We’ve accomplished so much take a look at some of our work!</h1>
           </div>
         </div>
       </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Layout/Navigations/Navbar1";
 import PageTopTitle from "@/components/Common/PageTopTitle";
-import HelpDesk from "@/components/Services/HelpDesk";
 import Overview from "@/components/Services/Overview";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 
@@ -10,7 +9,7 @@ const Services = () => {
     <>
       <Navbar />
       <PageTopTitle subTitle=" " title=" " />
-      <HelpDesk />
+      {/* <HelpDesk /> */}
       <Overview />
       {/* <WhatWeDo /> */}
 

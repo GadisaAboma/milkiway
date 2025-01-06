@@ -4,11 +4,12 @@ import Overview from "@/components/Services/Overview";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 import Team from "../components/AboutUs/Team";
 import Projects from "@/components/HomePages/App/Projects";
+import HomeNavBar from "@/components/Layout/Navigations/HomeNavbar";
 
 export default function Index() {
   return (
     <>
-      <Navbar />
+      <HomeNavBar />
       <Banner />
       {/* <Helpdesk /> */}
       <Overview />

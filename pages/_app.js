@@ -18,10 +18,15 @@ import ScrollToTop from "@/components/Layout/ScrollToTop";
 
 import Head from "next/head";
 
+// Import Redux setup
+import { Provider } from "react-redux";
+import store from "@/store/store"; // Adjust the path if necessary
+
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <>
       <Head>
@@ -30,7 +35,10 @@ function MyApp({ Component, pageProps }) {
         <title>Milkiway -Technology plc</title>
       </Head>
 
-      <Component {...pageProps} />
+      {/* Wrap the app with Redux Provider */}
+      <Provider store={store}>
+        <Component {...pageProps} />
+      </Provider>
 
       <ScrollToTop />
     </>

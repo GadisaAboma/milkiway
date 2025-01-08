@@ -21,7 +21,7 @@ module.exports = {
         protocol: "http",
         hostname: "localhost",
         port: "8000",
-        pathname: "/storage/other_images/**", // Pattern for other images (example)
+        pathname: "/storage/project_images/**", // Pattern for other images (example)
       },
     ],
   },

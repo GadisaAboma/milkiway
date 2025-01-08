@@ -4,6 +4,7 @@ import PortfolioStyle1 from "@/components/Portfolio/PortfolioStyle1";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 
 const Portfolio1 = () => {
+  
   return (
     <>
       <Navbar />

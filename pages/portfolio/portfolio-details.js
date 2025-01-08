@@ -33,7 +33,7 @@ const PortfolioDetails = () => {
       <div className="page-title-area">
         <div className="container">
           <div className="page-title-content">
-            <h1>Finance Consulting</h1>
+            <h1>{project.category.name}</h1>
             <ul>
               <li>
                 <a href="#">Home</a>
@@ -41,12 +41,12 @@ const PortfolioDetails = () => {
               <li>
                 <a href="#">Portfolio</a>
               </li>
-              <li>Finance Consulting</li>
+              <li>{project.category.name}g</li>
             </ul>
           </div>
         </div>
       </div>
-      <PortfolioDetailsContent />
+      <PortfolioDetailsContent project={project} />
       <FooterOne />
     </>
   );

@@ -4,6 +4,7 @@ import Image from "next/image";
 import baseUrl from "@/utils/api"; // Ensure baseUrl is correctly imported and valid
 
 export default function Project({ id, project }) {
+  
   const truncatedDescription = project.description
     ? project.description.slice(0, 100)
     : "No description available"; // Fallback if no description

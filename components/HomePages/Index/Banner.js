@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import * as THREE from "three";
+// import HALO from "vanta/dist/vanta.halo.min";
 import HALO from "vanta/dist/vanta.halo.min";
 
 import BannerImage from "@/public/images/banner/banner1.png";

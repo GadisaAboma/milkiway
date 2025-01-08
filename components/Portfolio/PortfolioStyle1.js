@@ -10,18 +10,23 @@ import caseStudiesImg5 from "@/public/images/case-studies/case-studies5.jpg";
 import caseStudiesImg6 from "@/public/images/case-studies/case-studies6.jpg";
 import Project from "./Project";
 
-const PortfolioStyle1 = () => {
+const PortfolioStyle1 = ({ projects }) => {
   return (
     <>
       <div className="case-studies-area pb-100 bg-f1f5fd">
         <div className="container">
           <div className="row">
+            {/* <Project />
             <Project />
             <Project />
             <Project />
             <Project />
-            <Project />
-            <Project />
+            <Project /> */}
+            {
+              projects.map((project) => (
+                <Project key={project.id} project={project} />
+              ))
+            }
           </div>
         </div>
       </div>

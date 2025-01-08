@@ -1,7 +1,7 @@
 import PortfolioStyle1 from "@/components/Portfolio/PortfolioStyle1";
 import React from "react";
 
-export default function Projects() {
+export default function Projects({ projects }) {
   return (
     <div className="container">
       <div
@@ -16,7 +16,7 @@ export default function Projects() {
       >
         <span className="sub-title"> Recent projects made by Milkiway</span>
       </div>
-      <PortfolioStyle1 />
+      <PortfolioStyle1 projects={projects} />
     </div>
   );
 }

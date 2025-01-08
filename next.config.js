@@ -6,44 +6,35 @@ module.exports = {
   images: {
     remotePatterns: [
       {
-        protocol: "http", // Change this to "http" if you're using localhost without HTTPS
+        protocol: "http",
         hostname: "localhost",
         port: "8000",
-        pathname: "/storage/team_images/**", // Adjust the pathname as needed
+        pathname: "/storage/team_images/**", // Pattern for team images
+      },
+      {
+        protocol: "http",
+        hostname: "localhost",
+        port: "8000",
+        pathname: "/storage/project_banners/**", // Pattern for project banners
+      },
+      {
+        protocol: "http",
+        hostname: "localhost",
+        port: "8000",
+        pathname: "/storage/other_images/**", // Pattern for other images (example)
       },
     ],
   },
+
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
+
   reactStrictMode: true,
+
   eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
-  // images: {
-  //   loader: "akamai",
-  //   path:
-  //     process.env.NODE_ENV === "production"
-  //       ? "https://abev-react.envytheme.com"
-  //       : "http://localhost:3000",
-  // },
+
   optimizeFonts: false,
 };
-
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   images: {
-//     remotePatterns: [
-//       {
-//         protocol: "http", // Change this to "http" if you're using localhost without HTTPS
-//         hostname: "localhost",
-//         port: "8000",
-//         pathname: "/storage/team_images/**", // Adjust the pathname as needed
-//       },
-//     ],
-//   },
-// };
-
-// module.exports = nextConfig;

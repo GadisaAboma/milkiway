@@ -22,4 +22,16 @@ export const fetchProjectById = async (id: string) => {
   }
 };
 
+
+export const fetchTeams = async () => {
+  try {
+    const response = await fetch(baseUrl + "api/teams-list");
+    const data = await response.json();
+    console.log(data);
+    return data;
+  } catch (error) {
+    throw new Error("Error fetching projects");
+  }
+};
+
 export default baseUrl;

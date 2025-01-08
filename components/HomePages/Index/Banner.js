@@ -29,6 +29,12 @@ const Banner = () => {
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 2.0,
+
+          color: 0x08467b,
+          backgroundColor: 0x053D81,
+          points: 10.0,
+          maxDistance: 15.0,
+          spacing: 18.0,
         })
       );
     }

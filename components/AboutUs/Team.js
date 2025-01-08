@@ -9,8 +9,14 @@ import teamImg4 from "@/public/images/team/team4.png";
 import teamImg5 from "@/public/images/team/team5.png";
 import teamImg6 from "@/public/images/team/team6.png";
 import bgShape1 from "@/public/images/shape/bg-shape1.jpg";
+import baseUrl from "@/utils/api";
 
-const Team = ({ showButton }) => {
+const Team = ({ showButton, teams }) => {
+  const images = [
+    teamImg5, // Include the default image
+    ...teams.map((team) => `${baseUrl}storage/${team.image}`), // Add team images dynamically
+  ];
+
   return (
     <div className="team-area ptb-100">
       <div className="container">
@@ -40,6 +46,37 @@ const Team = ({ showButton }) => {
           <div className="col-lg-6 col-md-12">
             <div className="team-member-list">
               <ul>
+                {images.map((image, index) =>
+                  index == 0 ? (
+                    <li data-aos="zoom-in" data-aos-duration="1200" key={index}>
+                      <Image src={teamImg1} alt="member-image" />
+                    </li>
+                  ) : (
+                    <li
+                      key={index}
+                      data-aos={
+                        index === 0
+                          ? "zoom-in"
+                          : index === 1 || index === 2 || index === 4
+                          ? "fade-down"
+                          : "fade-up"
+                      }
+                      data-aos-duration="1200"
+                      data-aos-delay={index + 1 * 100}
+                    >
+                      <Image
+                        src={image}
+                        width={100}
+                        height={100}
+                        alt="member-image"
+                        unoptimized={true}
+                      />
+                    </li>
+                  )
+                )}
+              </ul>
+
+              {/* <ul>
                 <li data-aos="zoom-in" data-aos-duration="1200">
                   <Image src={teamImg1} alt="member-image" />
                 </li>
@@ -78,7 +115,7 @@ const Team = ({ showButton }) => {
                 >
                   <Image src={teamImg6} alt="member-image" />
                 </li>
-              </ul>
+              </ul> */}
               <Image src={bgShape1} alt="bg-image" className="bg-image" />
             </div>
           </div>

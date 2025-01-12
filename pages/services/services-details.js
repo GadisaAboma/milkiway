@@ -11,9 +11,34 @@ const ServicesDetails = () => {
   const router = useRouter();
   const { id } = router.query;
 
-  const service = services.find((element) => element.id === parseInt(id));
+  // Convert `id` to an integer and find the matching service
+  const service = id ? services.find((element) => element.id === parseInt(id)) : null;
 
-  console.log("111111111111111");
+  // Check if the service exists
+  if (!service) {
+    return (
+      <>
+        <Navbar />
+        <div className="page-title-area">
+          <div className="container">
+            <div className="page-title-content">
+              <h1>Loading...</h1>
+              <ul>
+                <li>
+                  <Link href="/">Home</Link>
+                </li>
+                <li>
+                  <Link href="/services">Services</Link>
+                </li>
+                <li>Services Details</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <FooterOne />
+      </>
+    );
+  }
 
   return (
     <>

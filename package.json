@@ -1,6 +1,6 @@
 {
-    "name": "abev-react",
-    "version": "1.3.0",
+    "name": "milkiway-frontend",
+    "version": "1.0.0",
     "private": true,
     "scripts": {
         "dev": "next dev",

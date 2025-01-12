@@ -13,10 +13,10 @@ const ContactInfo = () => {
                     <i className="bx bx-phone-call"></i>
                   </div>
                   <h3>
-                    <a href="tel:+321895980008">(+321) 895-980 008</a>
+                    <a href="tel:+251941574660">(+251) 941-574-660</a>
                   </h3>
                   <h3>
-                    <a href="tel:+321895980008">(+321) 895-980 008</a>
+                    <a href="tel:+251930605974">(+251) 930-605-974</a>
                   </h3>
                 </div>
               </div>
@@ -27,10 +27,10 @@ const ContactInfo = () => {
                     <i className="bx bx-envelope"></i>
                   </div>
                   <h3>
-                    <a href="mailto:hello@abev.com">hello@abev.com</a>
+                    <a href="mailto:hello@abev.com">gemegudisa@gmail.com</a>
                   </h3>
                   <h3>
-                    <a href="mailto:info@abev.com">info@abev.com</a>
+                    <a href="mailto:info@abev.com">hirphafayisa88@gmail.com</a>
                   </h3>
                 </div>
               </div>
@@ -40,7 +40,7 @@ const ContactInfo = () => {
                   <div className="icon bg2">
                     <i className="bx bx-map"></i>
                   </div>
-                  <h3>2750 Quadra Street Victoria, Canada.</h3>
+                  <h3>Africa Avenue St. Addis Ababa, Ethiopia</h3>
                 </div>
               </div>
             </div>

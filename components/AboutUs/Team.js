@@ -2,18 +2,13 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import teamImg1 from "@/public/images/team/team1.png";
-import teamImg2 from "@/public/images/team/team2.png";
-import teamImg3 from "@/public/images/team/team3.png";
-import teamImg4 from "@/public/images/team/team4.png";
-import teamImg5 from "@/public/images/team/team5.png";
-import teamImg6 from "@/public/images/team/team6.png";
+import logo from "@/public/images/logo.png";
 import bgShape1 from "@/public/images/shape/bg-shape1.jpg";
 import baseUrl from "@/utils/api";
 
 const Team = ({ showButton, teams }) => {
   const images = [
-    teamImg5, // Include the default image
+    logo, // Include the default image
     ...teams.map((team) => `${baseUrl}storage/${team.image}`), // Add team images dynamically
   ];
 
@@ -28,13 +23,15 @@ const Team = ({ showButton, teams }) => {
               data-aos-duration="1200"
             >
               <span className="sub-title">Our Creative Team</span>
-              <h2>Our team believes you deserve only the best</h2>
+              <h2>
+                Our team is dedicated to ensuring you receive the highest
+                quality
+              </h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus
-                auctor purus risus, eu vitae neque, a platea sit. Dui nisi
-                tempus in ac arcu. In neque laoreet mi malesuada quam morbi.
-                Nisl sed a risus vitae, platea eget. Tortor, nisl aliquam urna
-                dignissim.
+                Our team is committed to providing exceptional quality and
+                service. We understand that you deserve nothing less than the
+                finest. Your satisfaction is our top priority, and we strive to
+                exceed your expectations.
               </p>
               {showButton && (
                 <Link href="/team" className="btn-style-one red-light-color">
@@ -49,7 +46,7 @@ const Team = ({ showButton, teams }) => {
                 {images.map((image, index) =>
                   index == 0 ? (
                     <li data-aos="zoom-in" data-aos-duration="1200" key={index}>
-                      <Image src={teamImg1} alt="member-image" />
+                      <Image src={image} alt="member-image" />
                     </li>
                   ) : (
                     <li

@@ -1,8 +1,10 @@
 /*================================================
 Global CSS
 =================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 :root {
-  --fontFamily: "Be Vietnam Pro", sans-serif;
+  --fontFamily: "Poppins", sans-serif;
   --nunitoFontFamily: "Nunito Sans", sans-serif;
   --redLightColor: #1791c8;
   --blueDarkColor: #0d0d0d;
@@ -434,7 +436,7 @@ p:last-child {
   border-radius: 50%;
   border: 2px solid transparent;
   -webkit-animation: rotate linear 3.5s infinite;
-          animation: rotate linear 3.5s infinite;
+  animation: rotate linear 3.5s infinite;
   border-top-color: rgba(101, 92, 151, 0.5);
   border-bottom-color: var(--redLightColor);
 }
@@ -449,23 +451,23 @@ p:last-child {
 .preloader-area .preloader .waviy span {
   position: relative;
   -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s;
+  animation-delay: 0.1s;
   display: inline-block;
   color: var(--blackColor);
   -webkit-animation: waviy 1s infinite;
-          animation: waviy 1s infinite;
+  animation: waviy 1s infinite;
 }
 .preloader-area .preloader .waviy span:nth-child(2) {
   -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 .preloader-area .preloader .waviy span:nth-child(3) {
   -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 .preloader-area .preloader .waviy span:nth-child(4) {
   -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 .preloader-area.deactivate {
   display: none;
@@ -495,7 +497,9 @@ p:last-child {
   }
 }
 @-webkit-keyframes waviy {
-  0%, 40%, 100% {
+  0%,
+  40%,
+  100% {
     transform: translateY(0);
   }
   20% {
@@ -503,10 +507,12 @@ p:last-child {
   }
 }
 @keyframes waviy {
-  0%, 40%, 100% {
+  0%,
+  40%,
+  100% {
     transform: translateY(0);
   }
   20% {
     transform: translateY(-20px);
   }
-}/*# sourceMappingURL=global.css.map */
+} /*# sourceMappingURL=global.css.map */

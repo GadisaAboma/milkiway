@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import overviewImg1 from "@/public/images/overview/overview1.png";
 import overviewImg2 from "@/public/images/overview/overview2.png";
+import { services } from "models/global-data";
 
 const Overview = () => {
   return (
@@ -15,7 +16,24 @@ const Overview = () => {
               <span className="sub-title">Our Services</span>
               <h2>Best IT & technology service in your area</h2>
               <ul className="overview-list">
-                <li data-aos="fade-up" data-aos-duration="1200">
+                {services.map((service, index) => (
+                  <li
+                    key={index}
+                    data-aos="fade-up"
+                    data-aos-duration="1200"
+                    data-aos-delay={index * 100}
+                  >
+                    <span>
+                      <i className="flaticon-draw-check-mark"></i>
+                      <Link
+                        href={`/services/services-details?id=${service.id}`}
+                      >
+                        {service.title}
+                      </Link>
+                    </span>
+                  </li>
+                ))}
+                {/* <li data-aos="fade-up" data-aos-duration="1200">
                   <span>
                     <i className="flaticon-draw-check-mark"></i>
                     <Link href="/services/services-details">
@@ -23,18 +41,7 @@ const Overview = () => {
                     </Link>
                   </span>
                 </li>
-                <li
-                  data-aos="fade-up"
-                  data-aos-duration="1200"
-                  data-aos-delay="100"
-                >
-                  <span>
-                    <i className="flaticon-draw-check-mark"></i>
-                    <Link href="/services/services-details">
-                      App Development
-                    </Link>
-                  </span>
-                </li>
+                
                 <li
                   data-aos="fade-up"
                   data-aos-duration="1200"
@@ -82,7 +89,7 @@ const Overview = () => {
                       IT Consultation
                     </Link>
                   </span>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="col-lg-6 col-md-12 overview-image">

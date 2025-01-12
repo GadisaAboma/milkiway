@@ -12,6 +12,9 @@ const HomeNavBar = () => {
     setMenu(!menu);
   };
   React.useEffect(() => {
+    if (window.innerWidth < 1000) {
+      setTextColor("black");
+    }
     let elementId = document.getElementById("navbar");
     document.addEventListener("scroll", () => {
       if (window.scrollY > 170) {
@@ -46,7 +49,7 @@ const HomeNavBar = () => {
               </a>
             </Link>
 
-            {/* <button
+            <button
               onClick={toggleNavbar}
               className={classTwo}
               type="button"
@@ -59,9 +62,15 @@ const HomeNavBar = () => {
               <span className="icon-bar top-bar"></span>
               <span className="icon-bar middle-bar"></span>
               <span className="icon-bar bottom-bar"></span>
-            </button> */}
+            </button>
 
-            <div className={classOne} id="navbarSupportedContent">
+            <div
+              className={classOne}
+              id="navbarSupportedContent"
+              style={{
+                color: textColor,
+              }}
+            >
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link href="/">

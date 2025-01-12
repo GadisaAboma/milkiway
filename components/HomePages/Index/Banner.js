@@ -44,19 +44,35 @@ const Banner = () => {
   }, [vantaEffect]);
 
   return (
-    <div className="it-startup-banner-area" ref={myRef}>
+    <div
+      style={{
+        height: "100vh",
+        // paddingTop: "20px",
+      }}
+      className="it-startup-banner-area"
+      ref={myRef}
+    >
       <div className="container">
-        <div className="row align-items-top m-0">
+        <div className="row align-items-center m-0">
           <div className="col-lg-6 col-md-12 p-0">
             <div className="it-startup-banner-content">
-              <h2 style={{ color: "white" }}>
+              <h2 style={{ color: "white", fontSize: "40px" }}>
                 Your Trusted Technology Partner
               </h2>
               <p style={{ color: "white" }}>
                 Delivering excellence in IT services and solutions that empower
                 your organization to achieve its goals and overcome challenges.
               </p>
-              <Link href="/contact" className="btn-style-one red-light-color">
+              <Link
+                href="/contact"
+                className="red-light-color"
+                style={{
+                  marginTop: "20px",
+                  backgroundColor: "white",
+                  padding: "15px 40px",
+                  borderRadius: "10px",
+                }}
+              >
                 Contact Us<i className="bx bx-chevron-right"></i>
               </Link>
             </div>

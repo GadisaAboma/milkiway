@@ -39,7 +39,7 @@ const AboutUs = () => {
         <div className="container">
           <div className="page-title-content">
             <span className="sub-title red-light-color">About Us</span>
-            <h1>Hello World! This is Abev!</h1>
+            <h1>Hello World! This is Milkiway!</h1>
           </div>
         </div>
       </div>

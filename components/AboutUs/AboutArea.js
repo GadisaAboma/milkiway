@@ -21,11 +21,10 @@ const AboutArea = () => {
               data-aos-duration="1200"
             >
               <span className="sub-title">About Us</span>
-              <h2>The story behind our consulting firm</h2>
+              <h2>The story behind Milkiway</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id
-                proin lectus in aliquam orci ornare nec. Commodo morbi tincidunt
-                egestas velit.
+                Delivering excellence in IT services and solutions that empower
+                your organization to achieve its goals and overcome challenges.
               </p>
               <ul className="about-list">
                 <li>
@@ -33,7 +32,7 @@ const AboutArea = () => {
                     <i className="bx bx-check-double"></i>
                   </div>
                   Integrated Innovation
-                  <Link href="/services/services-details" className="link-btn">
+                  <Link href="#" className="link-btn">
                     <i className="bx bx-chevron-right"></i>
                   </Link>
                 </li>
@@ -42,7 +41,7 @@ const AboutArea = () => {
                     <i className="bx bx-check-double"></i>
                   </div>
                   Collaborative Culture
-                  <Link href="/services/services-details" className="link-btn">
+                  <Link href="#" className="link-btn">
                     <i className="bx bx-chevron-right"></i>
                   </Link>
                 </li>
@@ -51,7 +50,7 @@ const AboutArea = () => {
                     <i className="bx bx-check-double"></i>
                   </div>
                   Business Planning
-                  <Link href="/services/services-details" className="link-btn">
+                  <Link href="#" className="link-btn">
                     <i className="bx bx-chevron-right"></i>
                   </Link>
                 </li>
@@ -60,16 +59,7 @@ const AboutArea = () => {
                     <i className="bx bx-check-double"></i>
                   </div>
                   Professional Team
-                  <Link href="/services/services-details" className="link-btn">
-                    <i className="bx bx-chevron-right"></i>
-                  </Link>
-                </li>
-                <li>
-                  <div className="icon">
-                    <i className="bx bx-check-double"></i>
-                  </div>
-                  13+ Years Experience
-                  <Link href="/services/services-details" className="link-btn">
+                  <Link href="#" className="link-btn">
                     <i className="bx bx-chevron-right"></i>
                   </Link>
                 </li>

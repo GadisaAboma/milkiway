@@ -10,15 +10,16 @@ const WorkingProcess = () => {
         <div className="row">
           <div className="col-lg-6 col-md-12">
             <div className="working-process-content">
-              <span className="sub-title">Our Working Process</span>
-              <h2>Dedicated to help anything people’s needs</h2>
+              <span className="sub-title">Our Development Process</span>
+              <h2>Committed to Building Solutions for Your Needs</h2>
               <ul className="working-process-list">
                 <li data-aos="fade-up" data-aos-duration="1200">
                   <div className="number">1</div>
-                  <h3>Analysis & Research</h3>
+                  <h3>Requirement Gathering</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    est non feugiat sagittis, donec.
+                    We collaborate with stakeholders to gather detailed
+                    requirements, ensuring we understand your vision and
+                    objectives for the software project.
                   </p>
                 </li>
                 <li
@@ -27,10 +28,11 @@ const WorkingProcess = () => {
                   data-aos-delay="100"
                 >
                   <div className="number">2</div>
-                  <h3>Define Your Goals</h3>
+                  <h3>Design & Prototyping</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    est non feugiat sagittis, donec.
+                    Our team creates wireframes and prototypes to visualize the
+                    software's layout and functionality, allowing for feedback
+                    and adjustments before development begins.
                   </p>
                 </li>
                 <li
@@ -39,10 +41,24 @@ const WorkingProcess = () => {
                   data-aos-delay="200"
                 >
                   <div className="number">3</div>
-                  <h3>Monitor the Results</h3>
+                  <h3>Development & Testing</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    est non feugiat sagittis, donec.
+                    We follow agile methodologies to build your software in
+                    iterative cycles, ensuring continuous testing and
+                    integration to maintain high quality throughout the process.
+                  </p>
+                </li>
+                <li
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="300"
+                >
+                  <div className="number">4</div>
+                  <h3>Deployment & Support</h3>
+                  <p>
+                    Once development is complete, we deploy your software and
+                    provide ongoing support, ensuring it operates smoothly and
+                    efficiently in a live environment.
                   </p>
                 </li>
               </ul>
